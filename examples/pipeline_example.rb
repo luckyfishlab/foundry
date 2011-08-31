@@ -2,7 +2,7 @@ $: << File.expand_path("./lib")
 
 require 'resque'
 require 'foundry'
-require './sleepyjob'
+require './examples/sleepyjob'
 
 
 class CommitPhase < Foundry::QueuedPhase

@@ -1,7 +1,7 @@
 $: << File.expand_path("./lib")
 
 require 'foundry'
-require './sleepyjob'
+require './examples/sleepyjob'
 
 
 params = { "sleep" => 10 }

@@ -3,6 +3,7 @@ require 'foundry/phase'
 require 'foundry/eventedphase'
 
 require 'foundry/processor'
+require 'foundry/parallel_processor'
 require 'foundry/callback'
 require 'foundry/syncproducer'
 require 'foundry/queued_callback'
